@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Predator-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="PreyPredator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRt-Ol-FBd">
+                                <rect key="frame" x="215" y="49" width="97" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.039977417500000001" green="0.59792960900000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8dh-eP-aXI" kind="show" id="ygc-Aa-ypC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lion(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="p7Z-fg-1mO">
+                                <rect key="frame" x="180" y="101" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Killer Whale(Normal)" translatesAutoresizingMaskIntoConstraints="NO" id="3FB-z7-GLv">
+                                <rect key="frame" x="180" y="224" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Polar Bear(Normal)" translatesAutoresizingMaskIntoConstraints="NO" id="rTJ-W9-C1F">
+                                <rect key="frame" x="180" y="348" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red-Tailed Hawk(Normal)" translatesAutoresizingMaskIntoConstraints="NO" id="XnN-uq-tKM">
+                                <rect key="frame" x="180" y="472" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" fixedFrame="YES" text="Predators" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="d1f-J4-36V">
+                                <rect key="frame" x="16" y="20" width="156.5" height="41.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1020605562" green="0.095261257599999996" blue="0.1131176374" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adjust Predator Population" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEE-Jf-hHO">
+                                <rect key="frame" x="16" y="62" width="176" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" fixedFrame="YES" text="Lion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOD-2D-8W5">
+                                <rect key="frame" x="18" y="90" width="32.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Savanna Grasslands" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMD-Ki-0dg">
+                                <rect key="frame" x="18" y="110" width="130.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Killer Whale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftO-n4-ZVd">
+                                <rect key="frame" x="18" y="213" width="90.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="M32-2a-3TZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ocean" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RjG-7g-xUQ">
+                                <rect key="frame" x="18" y="234" width="42" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="GwL-nC-TPr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="751" text="Polar Bear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2h1-HL-kN0">
+                                <rect key="frame" x="16" y="337" width="78.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arctic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJY-Tu-IRH">
+                                <rect key="frame" x="16" y="357" width="38" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red-Tailed Hawk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZI-b9-gnf">
+                                <rect key="frame" x="18" y="461" width="128.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="nC5-96-RsT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Woodlands" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASc-JR-D7C">
+                                <rect key="frame" x="18" y="482" width="72.5" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="Itb-8u-syh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fx9-9c-HNa">
+                                <rect key="frame" x="16" y="126" width="118" height="31"/>
+                                <connections>
+                                    <action selector="predSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="Y8z-Zi-QoC"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="J7y-JH-MOh">
+                                <rect key="frame" x="16" y="250" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="predSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="Tew-Gz-KIQ"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9cJ-S6-imJ">
+                                <rect key="frame" x="14" y="378" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="predSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="qYX-9h-yjK"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7XA-AS-k6Y">
+                                <rect key="frame" x="14" y="504" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="predSlider:" destination="9pv-A4-QxB" eventType="valueChanged" id="LRq-Eb-ju6"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10206055616934451" green="0.09526125760294106" blue="0.11311763743455494" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="AZI-b9-gnf" secondAttribute="trailing" constant="212.5" id="1YC-HN-bhs"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="zJY-Tu-IRH" secondAttribute="leading" id="2kh-wM-5yu"/>
+                            <constraint firstItem="AZI-b9-gnf" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="2" id="4hy-eN-srr"/>
+                            <constraint firstItem="ftO-n4-ZVd" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="2" id="6HY-yS-YDy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ftO-n4-ZVd" secondAttribute="trailing" constant="250.5" id="6JS-4x-BBF"/>
+                            <constraint firstItem="RjG-7g-xUQ" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="2" id="6sd-CG-ICd"/>
+                            <constraint firstItem="ASc-JR-D7C" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="462" id="AYR-Y0-xK6"/>
+                            <constraint firstItem="AMD-Ki-0dg" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="90" id="CUt-9d-kfs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2h1-HL-kN0" secondAttribute="trailing" constant="264.5" id="Ewh-Ho-b5P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zJY-Tu-IRH" secondAttribute="trailing" constant="305" id="FYc-F3-jdO"/>
+                            <constraint firstItem="AZI-b9-gnf" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="2" id="H2v-fq-OIz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AMD-Ki-0dg" secondAttribute="trailing" constant="210.5" id="KcG-sL-NfM"/>
+                            <constraint firstItem="ASc-JR-D7C" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="2" id="Pzq-3j-eoe"/>
+                            <constraint firstItem="AMD-Ki-0dg" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="2" id="RU4-r3-TS3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AZI-b9-gnf" secondAttribute="trailing" constant="212.5" id="RnP-b5-zSW"/>
+                            <constraint firstItem="2h1-HL-kN0" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="317" id="SbY-ZX-q0y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2h1-HL-kN0" secondAttribute="trailing" constant="264.5" id="TNA-FE-wFQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ASc-JR-D7C" secondAttribute="trailing" constant="268.5" id="Xp5-Bv-opU"/>
+                            <constraint firstItem="zJY-Tu-IRH" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="337" id="bHb-r4-q37"/>
+                            <constraint firstItem="AZI-b9-gnf" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="441" id="bJv-Qy-aEO"/>
+                            <constraint firstItem="fx9-9c-HNa" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="2" id="dAa-Ej-RIy"/>
+                            <constraint firstItem="RjG-7g-xUQ" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="214" id="dZY-1e-9nP"/>
+                            <constraint firstItem="fx9-9c-HNa" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="106" id="jyF-Za-DPI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RjG-7g-xUQ" secondAttribute="trailing" constant="299" id="kRZ-fn-3cg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fx9-9c-HNa" secondAttribute="trailing" constant="227" id="pM6-Rr-SFz"/>
+                            <constraint firstItem="ftO-n4-ZVd" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="193" id="y7A-GT-p8b"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Predator" image="predator1" selectedImage="predator1" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="killerWhale" destination="J7y-JH-MOh" id="Wbm-bP-yOX"/>
+                        <outlet property="lion" destination="fx9-9c-HNa" id="OKv-wy-sfG"/>
+                        <outlet property="polarBear" destination="9cJ-S6-imJ" id="ksk-ho-wnX"/>
+                        <outlet property="redTailedHawk" destination="7XA-AS-k6Y" id="eOk-eF-db9"/>
+                        <outlet property="tabBar" destination="acW-dT-cKf" id="BaB-am-TCo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032.8" y="-482.60869565217394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ToH-8X-F2M">
+            <objects>
+                <viewController id="8dh-eP-aXI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gDG-gW-PIT"/>
+                        <viewControllerLayoutGuide type="bottom" id="rsa-vY-CbM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dK8-4j-yoO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YXA-1c-YOV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="931"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K52-OU-Wds">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GF6-Qa-Rk7">
+                                                <rect key="frame" x="14" y="8" width="62" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.046741662082788182" green="0.34596606570428512" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="49e-Tb-3d3" kind="show" id="Wpp-2Q-9OQ"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Polar Bear(Normal)" translatesAutoresizingMaskIntoConstraints="NO" id="AGN-X3-6wa">
+                                                <rect key="frame" x="14" y="523" width="155" height="109"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Killer Whale(Normal)" translatesAutoresizingMaskIntoConstraints="NO" id="gd2-k0-aea">
+                                                <rect key="frame" x="14" y="305" width="155" height="109"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Killer Whale(Orcinus orca)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xy8-xm-5Hq">
+                                                <rect key="frame" x="14" y="276" width="206" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Polar Bear(Ursus maritimus)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hct-he-Nxv">
+                                                <rect key="frame" x="14" y="494" width="220" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQR-Cv-8hz">
+                                                <rect key="frame" x="177" y="305" width="190" height="181"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The killer whale or orca is a toothed whale belonging to the oceanic dolphin family, of which it is the largest member. Fish-eating killer whales prey on around 30 species of fish. Some populations in the Norwegian and Greenland sea specialize in herring. However, Salmon account for 96% of northeast Pacific residents' diet.</string>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                                <color key="textColor" red="0.77411240179999996" green="0.77411240179999996" blue="0.77411240179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lion(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="EXm-FE-OOu">
+                                                <rect key="frame" x="14" y="81" width="155" height="109"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lion(Panthera leo)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD4-Fq-5UU">
+                                                <rect key="frame" x="14" y="57" width="143" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wW-Et-kPc">
+                                                <rect key="frame" x="177" y="513" width="190" height="178"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The polar bear is a carnivorous bear whose native range lies largely within the Arctic Circle. An adult male weighs around 772–1,543 lb, while an adult female is about half that size. The polar bear is the most carnivorous member of the bear family, and throughout most of its range, its diet primarily consists of ringed and bearded seals.</string>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                                <color key="textColor" red="0.77411240179999996" green="0.77411240179999996" blue="0.77411240179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9o-zj-DoA">
+                                                <rect key="frame" x="171" y="68" width="196" height="207"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">With some males exceeding 250 kg (550 lb) in weight, it is the second-largest living cat after the tiger, barring hybrids like the liger. Wild lions currently exist in sub-Saharan Africa and in India. Lions are generalist hypercarnivores and hunt in groups. Their prey consists of mammals, particularly ungulates,  wildebeest, zebras, buffalo, gemsbok, and giraffes in Africa.</string>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                                <color key="textColor" red="0.77411240183246077" green="0.77411240183246077" blue="0.77411240183246077" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="vDB-NR-zRO"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red-Tailed Hawk(Normal)" translatesAutoresizingMaskIntoConstraints="NO" id="uCd-Ba-SeL">
+                                        <rect key="frame" x="14" y="729" width="155" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red-Tailed Hawk(Buteo jamaicensis)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsY-YR-U1v">
+                                        <rect key="frame" x="14" y="697" width="278" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5E-s0-FLV">
+                                        <rect key="frame" x="177" y="716" width="190" height="207"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">The red-tailed hawk is a bird of prey. It breeds throughout most of North America, from western Alaska and northern Canada to as far south as Panama and the West Indies. It is one of the largest members of the genus Buteo in North America, typically weighing from 690 to 1.5 to 3.5 lbs. and measuring 18–26 in. in length, with a wingspan from 43–57 in.</string>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                        <color key="textColor" red="0.77411240179999996" green="0.77411240179999996" blue="0.77411240179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="K52-OU-Wds" firstAttribute="top" secondItem="YXA-1c-YOV" secondAttribute="top" id="Ky9-SA-vc4"/>
+                                    <constraint firstAttribute="trailing" secondItem="K52-OU-Wds" secondAttribute="trailing" id="VuF-xT-uAh"/>
+                                    <constraint firstItem="K52-OU-Wds" firstAttribute="leading" secondItem="YXA-1c-YOV" secondAttribute="leading" id="m5g-BJ-Ldx"/>
+                                    <constraint firstAttribute="bottom" secondItem="K52-OU-Wds" secondAttribute="bottom" id="tAz-EZ-t6i"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YXA-1c-YOV" firstAttribute="top" secondItem="gDG-gW-PIT" secondAttribute="bottom" id="2lT-cW-Cwa"/>
+                            <constraint firstAttribute="trailing" secondItem="YXA-1c-YOV" secondAttribute="trailing" id="FVh-3P-694"/>
+                            <constraint firstItem="K52-OU-Wds" firstAttribute="width" secondItem="dK8-4j-yoO" secondAttribute="width" id="bsv-7Y-dKf"/>
+                            <constraint firstItem="YXA-1c-YOV" firstAttribute="leading" secondItem="dK8-4j-yoO" secondAttribute="leading" id="ipm-0t-PNQ"/>
+                            <constraint firstItem="rsa-vY-CbM" firstAttribute="top" secondItem="YXA-1c-YOV" secondAttribute="bottom" id="zDB-9q-PNg"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WaT-eg-DKn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2000.8" y="-651.2743628185907"/>
+        </scene>
+        <!--Prey-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="PreyPredator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj2-u2-qMO">
+                                <rect key="frame" x="215" y="49" width="97" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.039977417497437551" green="0.59792960895300795" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mXu-bn-WSV" kind="show" id="31k-qB-OtG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rigged Seal(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="nkX-7w-LNP">
+                                <rect key="frame" x="180" y="348" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Zebra(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="PEL-CJ-VcT">
+                                <rect key="frame" x="180" y="101" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="Mg4-C4-ucI">
+                                <rect key="frame" x="14" y="379" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="preySlider:" destination="8rJ-Kc-sve" eventType="valueChanged" id="hUb-w2-8sq"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="bgK-Hq-g4Z">
+                                <rect key="frame" x="16" y="127" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="preySlider:" destination="8rJ-Kc-sve" eventType="valueChanged" id="19C-Gy-kEr"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salmon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgS-PG-roq">
+                                <rect key="frame" x="18" y="213" width="90.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="hPt-On-axq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arctic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-0t-Xny">
+                                <rect key="frame" x="16" y="357" width="38" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Woodlands" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umj-O1-RsJ">
+                                <rect key="frame" x="18" y="482" width="72.5" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="ENh-3a-wYT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Sl7-pN-wsC">
+                                <rect key="frame" x="16" y="20" width="146" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" text="Prey" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="TOz-3k-O6d">
+                                        <rect key="frame" x="0.0" y="0.0" width="74.5" height="41.5"/>
+                                        <color key="backgroundColor" red="0.1020605562" green="0.095261257599999996" blue="0.1131176374" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                        <color key="textColor" red="0.0" green="0.2355324758" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adjust Prey Population" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xi-lR-jC0">
+                                        <rect key="frame" x="0.0" y="41.5" width="146" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="yOX-oj-avc">
+                                <rect key="frame" x="14" y="505" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="preySlider:" destination="8rJ-Kc-sve" eventType="valueChanged" id="xUC-9C-qhx"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4w-Ji-A4H">
+                                <rect key="frame" x="18" y="461" width="128.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="qLL-Ef-K5D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Salmon(normal" translatesAutoresizingMaskIntoConstraints="NO" id="zYg-rE-1eR">
+                                <rect key="frame" x="180" y="224" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mice(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="Yjn-yb-WEr">
+                                <rect key="frame" x="180" y="472" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="751" text="Ringed Seal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKW-aZ-XNW">
+                                <rect key="frame" x="16.5" y="337" width="90.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ocean" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzt-VD-sTn">
+                                <rect key="frame" x="18" y="234" width="42" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="Vcs-Xb-2cM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Zebra" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFb-eK-AJL">
+                                <rect key="frame" x="18" y="90" width="46" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="IPR-Eh-miD">
+                                <rect key="frame" x="16" y="251" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="preySlider:" destination="8rJ-Kc-sve" eventType="valueChanged" id="1ki-hA-HhW"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Savanna Grasslands" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7X-Tr-21o">
+                                <rect key="frame" x="18" y="110" width="130.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1020605562" green="0.095261257599999996" blue="0.1131176374" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="hJf-0t-Xny" secondAttribute="leading" id="0Ws-9W-DQe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hJf-0t-Xny" secondAttribute="trailing" constant="305" id="3Xb-eJ-TLu"/>
+                            <constraint firstItem="zzt-VD-sTn" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="2" id="4t8-DZ-AG2"/>
+                            <constraint firstItem="dKW-aZ-XNW" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="0.5" id="58p-S7-TAO"/>
+                            <constraint firstItem="D7X-Tr-21o" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="2" id="5ph-hA-vZP"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="KFb-eK-AJL" secondAttribute="bottom" constant="507.5" id="7do-eO-tqL"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="dKW-aZ-XNW" secondAttribute="bottom" constant="260" id="9z4-gC-e82"/>
+                            <constraint firstItem="TOz-3k-O6d" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="A4o-F2-TZl"/>
+                            <constraint firstItem="IgS-PG-roq" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="2" id="BBy-mH-lpe"/>
+                            <constraint firstItem="5xi-lR-jC0" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="41.5" id="H15-hI-T2u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KFb-eK-AJL" secondAttribute="trailing" constant="295" id="H6e-Oh-PTw"/>
+                            <constraint firstItem="W4w-Ji-A4H" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="441" id="JDh-LB-exl"/>
+                            <constraint firstItem="KFb-eK-AJL" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="2" id="Jy4-AE-JCv"/>
+                            <constraint firstItem="umj-O1-RsJ" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="462" id="MMC-Yy-0Dj"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="zzt-VD-sTn" secondAttribute="bottom" constant="367" id="NNM-g5-oMe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IgS-PG-roq" secondAttribute="trailing" constant="250.5" id="OPv-fG-9Us"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="5xi-lR-jC0" secondAttribute="leading" id="QHi-Oz-cPF"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="TOz-3k-O6d" secondAttribute="bottom" constant="556.5" id="Qzh-ct-FyK"/>
+                            <constraint firstItem="dKW-aZ-XNW" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="317" id="W5D-85-kf1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dKW-aZ-XNW" secondAttribute="trailing" constant="252" id="WNc-XS-xzp"/>
+                            <constraint firstItem="zzt-VD-sTn" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="214" id="Wa9-Ib-mbI"/>
+                            <constraint firstItem="umj-O1-RsJ" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="2" id="Wqy-e3-jw5"/>
+                            <constraint firstItem="W4w-Ji-A4H" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="2" id="a7V-IB-o9d"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="IgS-PG-roq" secondAttribute="bottom" constant="384" id="bQz-ei-aEV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="umj-O1-RsJ" secondAttribute="trailing" constant="268.5" id="bSc-ep-QgS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="W4w-Ji-A4H" secondAttribute="trailing" constant="212.5" id="cug-c1-OOz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zzt-VD-sTn" secondAttribute="trailing" constant="299" id="ecb-Nn-3kX"/>
+                            <constraint firstItem="D7X-Tr-21o" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="90" id="gnZ-oS-dOh"/>
+                            <constraint firstItem="D7X-Tr-21o" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="2" id="hgu-FU-L8L"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="5xi-lR-jC0" secondAttribute="bottom" constant="539.5" id="jb7-Es-wBQ"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="umj-O1-RsJ" secondAttribute="bottom" constant="119" id="mDW-kM-U4R"/>
+                            <constraint firstItem="hJf-0t-Xny" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="337" id="nQX-lE-4hF"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="D7X-Tr-21o" secondAttribute="bottom" constant="491" id="rSU-Ou-HQt"/>
+                            <constraint firstItem="KFb-eK-AJL" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="70" id="rkQ-8a-bxK"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="hJf-0t-Xny" secondAttribute="bottom" constant="244" id="rwR-Tk-i9y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TOz-3k-O6d" secondAttribute="trailing" constant="268.5" id="tlM-Sc-VUd"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="W4w-Ji-A4H" secondAttribute="bottom" constant="136" id="uT7-cj-Arj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="TOz-3k-O6d" secondAttribute="leading" id="vib-CN-D4K"/>
+                            <constraint firstItem="IgS-PG-roq" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="193" id="xtg-yH-6Xr"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Prey" image="rabbit(sil)" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="mice" destination="yOX-oj-avc" id="OO2-e7-Ryp"/>
+                        <outlet property="ringedSeal" destination="Mg4-C4-ucI" id="Lks-TJ-5at"/>
+                        <outlet property="salmon" destination="IPR-Eh-miD" id="7He-Sw-Q2c"/>
+                        <outlet property="zebra" destination="bgK-Hq-g4Z" id="mzY-sL-SJW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032.8" y="213.64317841079463"/>
+        </scene>
+        <!--Codon-->
+        <scene sceneID="4Ph-Z0-iTQ">
+            <objects>
+                <viewController id="OMz-LH-7lo" customClass="CodonViewController" customModule="PreyPredator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bSY-9d-5YL"/>
+                        <viewControllerLayoutGuide type="bottom" id="KGj-2o-UQM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F0M-t4-7QS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Codon Picker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11Y-pX-h5H">
+                                <rect key="frame" x="16" y="20" width="346" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nt0-z9-ogN">
+                                <rect key="frame" x="16" y="122" width="171" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="sequence:" destination="OMz-LH-7lo" eventType="editingDidEnd" id="YRQ-n4-4zi"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type in a sequence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOL-xd-Yy5">
+                                <rect key="frame" x="16" y="93" width="148" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amino Acid:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmA-F3-Vmo">
+                                <rect key="frame" x="16" y="184" width="346" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Codon Wheel" translatesAutoresizingMaskIntoConstraints="NO" id="3oo-cZ-hp5">
+                                <rect key="frame" x="-3" y="213" width="380" height="358"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Codon" image="CodonIcon" selectedImage="CodonIcon" id="omO-wq-EoR"/>
+                    <connections>
+                        <outlet property="codon" destination="VmA-F3-Vmo" id="jeE-bg-G4n"/>
+                        <outlet property="seqText" destination="Nt0-z9-ogN" id="4gJ-iA-9wR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8Z-Yw-X4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-786.39999999999998" y="963.86806596701661"/>
+        </scene>
+        <!--Graph-->
+        <scene sceneID="aHm-VS-DK3">
+            <objects>
+                <viewController id="bwb-N3-o1z" customClass="GraphViewController" customModule="PreyPredator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rv0-e9-cW7"/>
+                        <viewControllerLayoutGuide type="bottom" id="dby-HA-5Ua"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dps-xE-Jni">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Population of                 vs  " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZR-EU-YKA">
+                                <rect key="frame" x="13" y="20" width="346" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Predator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRm-py-Sef">
+                                <rect key="frame" x="155" y="27" width="95" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graph Behavior" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsS-QJ-6rr">
+                                <rect key="frame" x="16" y="290" width="343" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.52245582460732987" green="0.52245582460732987" blue="0.52245582460732987" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHk-vp-zEn">
+                                <rect key="frame" x="277" y="27" width="50" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.23553247583757386" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time(x) vs. Population(y)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymK-k9-Ted">
+                                <rect key="frame" x="13" y="57" width="180" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="0EV-3M-goS">
+                                <rect key="frame" x="81" y="397" width="211" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWR-uW-Odl">
+                                        <rect key="frame" x="51.5" y="0.0" width="108" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Lion vs. Zebra">
+                                            <color key="titleColor" red="0.017383804678374748" green="0.38239384297166479" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="lioZeb:" destination="bwb-N3-o1z" eventType="touchUpInside" id="wLW-4Q-ZBJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcz-FW-vUo">
+                                        <rect key="frame" x="16.5" y="39" width="178" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Killer Whale vs. Salmon">
+                                            <color key="titleColor" red="0.017383804678374748" green="0.38239384297166479" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="whaSal:" destination="bwb-N3-o1z" eventType="touchUpInside" id="lfN-Bg-HBi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bl-kg-Pps">
+                                        <rect key="frame" x="5.5" y="78" width="200" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Polar Bear vs. Ringed Seal">
+                                            <color key="titleColor" red="0.017383804678374748" green="0.38239384297166479" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="beaSea:" destination="bwb-N3-o1z" eventType="touchUpInside" id="8He-ae-kVL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryf-uX-fbq">
+                                        <rect key="frame" x="0.0" y="117" width="211" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Red-Tailed Hawk vs. Mouse">
+                                            <color key="titleColor" red="0.017383804678374748" green="0.38239384297166479" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hawMou:" destination="bwb-N3-o1z" eventType="touchUpInside" id="rpI-A9-Ps6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Relationship to Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSN-uA-y3c">
+                                <rect key="frame" x="86" y="368" width="202" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1020605562" green="0.095261257599999996" blue="0.1131176374" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Graph" image="Final Graph" selectedImage="Final Graph" id="bSB-TX-lkN">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="1"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="graphBehavior" destination="bsS-QJ-6rr" id="YV6-AI-DNe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hrx-Yh-5tJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="963.86806596701661"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barTintColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="bwb-N3-o1z" kind="relationship" relationship="viewControllers" id="gve-0P-gDJ"/>
+                        <segue destination="OMz-LH-7lo" kind="relationship" relationship="viewControllers" id="Fe8-NC-cUY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="61j-CE-HlD">
+            <objects>
+                <viewController id="mXu-bn-WSV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0nJ-aj-OUC"/>
+                        <viewControllerLayoutGuide type="bottom" id="0XY-7z-vlh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6oW-1c-wLb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6V-V2-4kp">
+                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="76f-qx-mof">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stl-1C-CAs">
+                                                <rect key="frame" x="8" y="8" width="62" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.046741662080000003" green="0.34596606569999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="49e-Tb-3d3" kind="show" id="4lm-Kx-Upy"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCb-Kg-iGs">
+                                                <rect key="frame" x="177" y="495" width="190" height="197"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The ringed seal is an earless seal inhabiting the Arctic and sub-Arctic regions.The ringed seal is a relatively small seal, rarely greater than 1.5 m in length.It is the most abundant and wide-ranging ice seal in the Northern Hemisphere. Ringed seals eat a wide variety of small prey that consists of 72 species of fish and invertebrates.
+</string>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                                <color key="textColor" red="0.77411240179999996" green="0.77411240179999996" blue="0.77411240179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="jiP-Rc-Oxp"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Salmon(normal" translatesAutoresizingMaskIntoConstraints="NO" id="t6Z-1B-5Ct">
+                                        <rect key="frame" x="10" y="278" width="155" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Salmon(Salmo salar)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRE-V5-FvP">
+                                        <rect key="frame" x="10" y="251" width="206" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWp-oW-hcE">
+                                        <rect key="frame" x="173" y="272" width="190" height="207"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Salmon are native to tributaries of the North Atlantic (genus Salmo) and Pacific Ocean (genus Oncorhynchus). Typically, salmon are anadromous: they are born in freshwater, migrate to the ocean, then return to freshwater to reproduce. In the Pacific Northwest and Alaska, salmon are keystone species, supporting wildlife such as birds, bears and otters.</string>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                        <color key="textColor" red="0.77411240179999996" green="0.77411240179999996" blue="0.77411240179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMW-6p-BeN">
+                                        <rect key="frame" x="173" y="46" width="190" height="207"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Zebras are several species of African equids (horse family) united by their distinctive black and white striped coats. They occur in a variety of habitats, such as grasslands, savannas, woodlands, thorny scrublands, mountains, and coastal hills. Zebras feed almost entirely on grasses, but may occasionally eat shrubs, herbs, twigs, leaves and bark.</string>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                        <color key="textColor" red="0.77411240179999996" green="0.77411240179999996" blue="0.77411240179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Zebra(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="HWj-3w-PWe">
+                                        <rect key="frame" x="10" y="71" width="155" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rigged Seal(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="8BR-ap-Yt6">
+                                        <rect key="frame" x="10" y="503" width="155" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zebra(Equus zebra)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMR-hE-zNZ">
+                                        <rect key="frame" x="10" y="47" width="152" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ringed Seal(Phoca hispida)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULY-oL-1fl">
+                                        <rect key="frame" x="10" y="474" width="220" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mice(normal)" translatesAutoresizingMaskIntoConstraints="NO" id="qqn-Cc-AnF">
+                                        <rect key="frame" x="8" y="729" width="155" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mouse(Mus musculus)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJa-Sm-Ilk">
+                                        <rect key="frame" x="8" y="700" width="173" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QiJ-4j-oXB">
+                                        <rect key="frame" x="171" y="709" width="190" height="207"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Mice are a staple in the diet of many small carnivores. Cats, wild dogs, foxes, birds of prey, snakes and even certain kinds of arthropods have been known to prey heavily upon mice.  Nevertheless, because of its remarkable adaptability to almost any environment, the mouse is one of the most successful mammalian genera living on Earth today.</string>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                        <color key="textColor" red="0.77411240179999996" green="0.77411240179999996" blue="0.77411240179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="76f-qx-mof" secondAttribute="trailing" id="QNR-EH-eHr"/>
+                                    <constraint firstItem="76f-qx-mof" firstAttribute="top" secondItem="p6V-V2-4kp" secondAttribute="top" id="lif-aO-8Py"/>
+                                    <constraint firstItem="76f-qx-mof" firstAttribute="leading" secondItem="p6V-V2-4kp" secondAttribute="leading" id="qZe-he-JLm"/>
+                                    <constraint firstAttribute="bottom" secondItem="76f-qx-mof" secondAttribute="bottom" id="yn6-Tz-m9s"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="p6V-V2-4kp" secondAttribute="bottom" id="7BV-HL-pc0"/>
+                            <constraint firstItem="p6V-V2-4kp" firstAttribute="leading" secondItem="6oW-1c-wLb" secondAttribute="leading" id="9Fn-K4-bzL"/>
+                            <constraint firstAttribute="trailing" secondItem="p6V-V2-4kp" secondAttribute="trailing" id="Ah3-wc-vH4"/>
+                            <constraint firstItem="p6V-V2-4kp" firstAttribute="top" secondItem="0nJ-aj-OUC" secondAttribute="bottom" id="LEP-hG-T62"/>
+                            <constraint firstItem="76f-qx-mof" firstAttribute="width" secondItem="6oW-1c-wLb" secondAttribute="width" id="Zxa-SN-cNg"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iSe-tY-lS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1924" y="686.35682158920542"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Codon Wheel" width="512" height="506"/>
+        <image name="CodonIcon" width="32" height="32"/>
+        <image name="Final Graph" width="32" height="31"/>
+        <image name="Killer Whale(Normal)" width="1200" height="798"/>
+        <image name="Lion(normal)" width="1600" height="1200"/>
+        <image name="Mice(normal)" width="1200" height="900"/>
+        <image name="Polar Bear(Normal)" width="1000" height="667"/>
+        <image name="Red-Tailed Hawk(Normal)" width="2400" height="1619"/>
+        <image name="Rigged Seal(normal)" width="700" height="465"/>
+        <image name="Salmon(normal" width="800" height="600"/>
+        <image name="Zebra(normal)" width="809" height="613"/>
+        <image name="predator1" width="130" height="47"/>
+        <image name="rabbit(sil)" width="34" height="35"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4lm-Kx-Upy"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.98057858200000003" green="1" blue="0.99504799470000005" alpha="1" colorSpace="calibratedRGB"/>
+</document>
